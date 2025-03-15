@@ -1,4 +1,27 @@
+# Compiled output
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+src/main/resources/application-dev.properties
+src/main/resources/application-local.properties
+
+# If you want to exclude application.properties with sensitive data
 src/main/resources/application.properties
-product-image
-.mvn
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Misc
 HELP.md
+.DS_Store
