@@ -109,7 +109,7 @@ public class BookingServiceImpl implements BookingService {
         bookingRepository.save(booking); //save to database
 
         //generate the payment url which will be sent via mail
-        String paymentUrl = "https://dip-lux-hms-frontend.vercel.app/" + bookingReference + "/" + totalPrice;
+        String paymentUrl = "dip-lux-hms.vercel.app/" + bookingReference + "/" + totalPrice;
 
         log.info("PAYMENT LINK: {}", paymentUrl);
 
